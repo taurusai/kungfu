@@ -13,7 +13,7 @@ setup(
     install_requires=[
         "click>=5.1",
         "sqlalchemy==1.3.8",
-        "psutil==5.6.2",
+        "psutil==5.6.6",
         "numpy",
         "pandas",
         "tabulate==0.8.3",
