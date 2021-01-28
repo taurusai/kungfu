@@ -179,7 +179,7 @@
     "css-loader": "^2.1.1",
     "del": "^3.0.0",
     "devtron": "^1.4.0",
-    "electron": "4.2.11",
+    "electron": "9.4.0",
     "electron-builder": "^21.2.0",
     "electron-chromedriver": "^5.0.1",
     "electron-debug": "^1.4.0",
