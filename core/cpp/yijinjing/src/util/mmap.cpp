@@ -101,7 +101,7 @@ namespace kungfu {
                  * or fd in the case of dup2) to refer to a new resource without the possibility of races where it might get reassigned to something
                  * else if you first released the old resource then attempted to regain it for the new resource.
                  */
-                void *buffer = mmap(0, size, master ? (PROT_READ | PROT_WRITE) : PROT_READ, MAP_SHARED, fd, 0);
+                void *buffer = mmap(NULL, size, master ? (PROT_READ | PROT_WRITE) : PROT_READ, MAP_SHARED, fd, 0);
 
                 if (buffer == MAP_FAILED)
                 {
